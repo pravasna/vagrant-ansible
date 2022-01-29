@@ -1,0 +1,11 @@
+---
+- name: install git
+  yum:
+    name: git
+    state: installed
+    update_cache: yes
+
+- name: install epel-release
+  yum:
+    name: epel-release
+    state: installed

@@ -1,0 +1,7 @@
+---
+- hosts: web
+
+  tasks:
+    - template: src=test.j2 dest=~/list.txt
+
+
