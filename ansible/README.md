@@ -28,6 +28,8 @@
 
 ### Services Endpoint
 
-http://<lb-ip>/
-http://<web1>/
-http://<web2>/
+#### <http://lb-ip/>
+
+#### <http://web1/>
+
+#### <http://web2/>
