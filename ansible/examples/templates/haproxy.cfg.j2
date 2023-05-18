@@ -35,7 +35,7 @@ defaults
     stats uri /haproxy?stats
 
 backend app
-    {% for host in groups['lb'] %}
+    {% for host in groups['lbs'] %}
        listen lb {{ hostvars[host]['ansible_enp0s8']['ipv4']['address'] }}:80
     {% endfor %}
     balance     roundrobin

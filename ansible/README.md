@@ -1,6 +1,6 @@
 # Ansible Playbooks and Roles
 
-## ushing public key to managed nodes
+## using public key to managed nodes
 
     ansible-playbook e45-ssh-addkey.yml -k
     password: vagrant
